@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+.header{
+    background-image: linear-gradient(to bottom right, white, #fba);
+    text-indent: 10%;
+    font-size: x-large;
+    padding: 45px;
+    color: black;
+
+}
+
+.navbar a{
+    float: right;
+    text-decoration: none;
+    padding: 10px 70px;
+    color:black;
+    font-size: large;
+    font-family:monospace;
+    
+}
+.navbar :hover{
+    color: white;
+    background-image: linear-gradient(to bottom right, white, pink);
+}
+.logo{
+    position: absolute;
+    top: 1px;
+    height: 100px;
+}
+
+
+.row{
+    display: flex;
+}
+.side{
+    flex: 10%;
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+
+}
+.container{
+    flex: 0%;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    opacity: 100%;
+
+}
+
+.top-left {
+    color: white;
+    font-size:x-large;
+    position: absolute;
+    top: 280px;
+    left: 750px;
+}
+.centered {
+    color: white;
+    font-size:x-large;
+    position: absolute;
+    top: 320px;
+    left: 750px;
+}
+.centered2 {
+    color: white;
+    font-size:x-large;
+    position: absolute;
+    top: 370px;
+    left: 750px;
+}
+.button {
+    color: white;
+    position: absolute;
+    border-color: red;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px 50px;
+    top: 500px;
+    left: 750px;
+}
+.fakeimg{
+    background-color: rgb(129, 121, 121);
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+
+}
+.footer{
+    background-image: linear-gradient( white, #fba);
+    text-align: center;
+    padding: 10px;
+}
